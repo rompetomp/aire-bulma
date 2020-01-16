@@ -1,0 +1,29 @@
+{
+  "name": "rompetomp/aire-bulma",
+  "description": "Bulma theme for Aire",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hannes Vermeire",
+      "email": "hannesvermeire@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "glhd/aire": "^1.9.0",
+    "illuminate/support": "^5.7|^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rompetomp\\AireBulma\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Rompetomp\\AireBulma\\AireBulmaServiceProvider"
+      ]
+    }
+  }
+}

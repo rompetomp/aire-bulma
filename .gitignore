@@ -1,0 +1,9 @@
+vendor/
+composer.phar
+composer.lock
+
+.DS_Store
+.idea/
+.phpstorm.meta.php
+_ide_helper.php
+.vscode
