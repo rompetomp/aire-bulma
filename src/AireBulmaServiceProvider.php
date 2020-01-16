@@ -16,7 +16,9 @@ class AireBulmaServiceProvider extends ServiceProvider
                 'group_help_text' => 'help',
                 'group_errors' => 'help is-danger',
                 'input' => 'input',
-                'label' => 'label'
+                'label' => 'label',
+                'checkbox_label' => 'checkbox',
+                'checkbox' => 'checkbox'
             ],
             'validation_classes' => [
                 'valid' => [
