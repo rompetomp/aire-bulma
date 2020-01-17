@@ -1,6 +1,6 @@
 <?php /** @var \Galahad\Aire\Elements\Attributes\Collection $attributes */ ?>
 
-@if($attributes->input->type)
+@if($attributes->input->type === 'file')
 <div {{ $attributes->file_wrapper }}>
     <label {{ $attributes->file_label }}>
         <input

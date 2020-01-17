@@ -26,7 +26,9 @@ class AireBulmaServiceProvider extends ServiceProvider
                 'input_file_wrapper' => 'file',
                 'input_file_label' => 'file-label',
                 'input_file_input' => 'file-input',
-                'input_file_icon' => 'fas fa-upload'
+                'input_file_icon' => 'fas fa-upload',
+                'radio_wrapper' => 'control',
+                'radio_label' => 'radio'
             ],
             'validation_classes' => [
                 'valid' => [
