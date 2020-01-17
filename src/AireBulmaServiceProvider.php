@@ -23,9 +23,10 @@ class AireBulmaServiceProvider extends ServiceProvider
                 'checkbox_group' => 'checkbox',
                 'select_wrapper' => 'select',
                 'textarea' => 'textarea',
-                'file_wrapper' => 'file',
-                'file_label' => 'file-label',
-                'file_input' => 'file-input'
+                'input_file_wrapper' => 'file',
+                'input_file_label' => 'file-label',
+                'input_file_input' => 'file-input',
+                'input_file_icon' => 'fas fa-upload'
             ],
             'validation_classes' => [
                 'valid' => [

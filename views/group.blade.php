@@ -1,5 +1,4 @@
 <?php /** @var \Galahad\Aire\Elements\Attributes\Collection $attributes */ ?>
-
 <div {{ $attributes }}>
     {{ $label }}
 
