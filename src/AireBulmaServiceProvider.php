@@ -113,6 +113,50 @@ class AireBulmaServiceProvider extends ServiceProvider
                     'static' => [
                         'static' => 'is-static'
                     ]
+                ],
+                'input' => [
+                    'rounded' => [
+                        'rounded' => 'is-rounded'
+                    ],
+                    'primary' => [
+                        'color' => 'is-primary'
+                    ],
+                    'info' => [
+                        'color' => 'is-info'
+                    ],
+                    'success' => [
+                        'color' => 'is-success'
+                    ],
+                    'warning' => [
+                        'color' => 'is-warning'
+                    ],
+                    'danger' => [
+                        'color' => 'is-danger'
+                    ],
+                    'small' => [
+                        'size' => 'is-small'
+                    ],
+                    'normal' => [
+                        'size' => 'is-normal'
+                    ],
+                    'medium' => [
+                        'size' => 'is-medium'
+                    ],
+                    'large' => [
+                        'size' => 'is-large'
+                    ],
+                    'hovered' => [
+                        'state' => 'is-hovered'
+                    ],
+                    'focus' => [
+                        'state' => 'is-focus'
+                    ],
+                    'loading' => [
+                        'loading' => 'is-loading'
+                    ],
+                    'static' => [
+                        'static' => 'is-static'
+                    ]
                 ]
             ]
         ]);
